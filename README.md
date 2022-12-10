@@ -1,2 +1,3 @@
 # PDF-Voice-Reader
-pip intall
+Module you will need:
+
