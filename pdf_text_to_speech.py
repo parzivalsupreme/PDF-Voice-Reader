@@ -13,6 +13,7 @@ def speak(texttospeech):
 
 
 reader =PdfReader(r"C:\Users\Elijah\Downloads\The Handmaids Tale [full text].pdf") #PDF file path
+
 #PDF page input up to 5 pages
 page1 = reader.pages[int(input("Page: "))]
 page2 = reader.pages[int(input("Page: "))]
