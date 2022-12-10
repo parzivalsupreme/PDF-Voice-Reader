@@ -1,3 +1,3 @@
 # PDF-Voice-Reader
-Module you will need:
+Python Module you will need:
 
