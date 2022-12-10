@@ -7,7 +7,7 @@
 
 •```pyttsx3``` - A Python library that allows users to convert text to speech. It is a wrapper around different text-to-speech engines and allows users to use them from within Python. pyttsx3 is an open-source library and is available for free. It is not part of the Python standard library, so you will need to install it using a package manager like pip.
 
-Installation: ```pip install pyttsx3```
+**Installation:** ```pip install pyttsx3```
 
 
 
