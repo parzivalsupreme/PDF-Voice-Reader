@@ -14,7 +14,9 @@ This script is used to read a PDF file and convert the text to speech using the 
 ```
 2. Download the PDF file that you want to read.
 3. Replace the file path in the following line with the file path of the PDF file on your computer:
-```reader =PdfReader(r"C:\Users\Elijah\Downloads\The Handmaids Tale [full text].pdf")```
+```reader =PdfReader(r"C:\Users\Elijah\Downloads\The Handmaids Tale [full text].pdf")
+
+```
 4. Run the script by entering the following command in the terminal:
 ```python pdf_reader.py
 ```
