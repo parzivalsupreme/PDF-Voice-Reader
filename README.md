@@ -10,16 +10,19 @@ This script is used to read a PDF file and convert the text to speech using the 
 
 ### Usage
 1. Install Python 3, PyPDF2, and pyttsx3 by running the following command:
-```pip install PyPDF2 pyttsx3
-```
+
+```pip install PyPDF2 pyttsx3```
+
 2. Download the PDF file that you want to read.
 3. Replace the file path in the following line with the file path of the PDF file on your computer:
-```reader =PdfReader(r"C:\Users\Elijah\Downloads\The Handmaids Tale [full text].pdf")
 
-```
+
+```reader =PdfReader(r"C:\Users\Elijah\Downloads\The Handmaids Tale [full text].pdf")```
+
 4. Run the script by entering the following command in the terminal:
-```python pdf_reader.py
-```
+
+```python pdf_reader.py```
+
 5. Enter the page numbers you would like to read when prompted. The script will read the text from the specified pages and convert it to speech.
 
 ### Note
