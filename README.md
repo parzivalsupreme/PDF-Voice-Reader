@@ -1,13 +1,32 @@
-#PDF Reader with Text to Speech
-### Python modules you will need:
+# PDF Reader with Text to Speech
 
-• ```PyPDF2``` - A library in Python that allows users to manipulate PDF files. It is used to extract information from PDF files, split and merge PDFs, and encrypt and decrypt  PDFs among other things. It is an open-source library and is available for free. It is not part of the Python standard library, so you will need to install it using a package manager like pip.
+### Description
+This script is used to read a PDF file and convert the text to speech using the pyttsx3 library. The script prompts the user to input the page numbers they would like to read and stores the pages in variables. The text is then extracted from each page and stored in separate variables. The script then enters an infinite loop where it prints the text from each page and converts it to speech using the function defined at the beginning of the script.
 
-**Installation:** ```pip install PyPDF2```
+### Requirements
+1. Python 3
+2. PyPDF2 library
+3. pyttsx3 library
 
-•```pyttsx3``` - A Python library that allows users to convert text to speech. It is a wrapper around different text-to-speech engines and allows users to use them from within Python. pyttsx3 is an open-source library and is available for free. It is not part of the Python standard library, so you will need to install it using a package manager like pip.
+### Usage
+1. Install Python 3, PyPDF2, and pyttsx3 by running the following command:
+```pip install PyPDF2 pyttsx3```
+2. Download the PDF file that you want to read.
+3. Replace the file path in the following line with the file path of the PDF file on your computer:
+```reader =PdfReader(r"C:\Users\Elijah\Downloads\The Handmaids Tale [full text].pdf")```
+4. Run the script by entering the following command in the terminal:
+```python pdf_reader.py```
+5. Enter the page numbers you would like to read when prompted. The script will read the text from the specified pages and convert it to speech.
 
-**Installation:** ```pip install pyttsx3```
+### Note
+The script will run indefinitely until it is manually stopped. To stop the script, press CTRL + C in the terminal.
+
+
+
+
+
+
+
 
 
 
